@@ -1,0 +1,14 @@
+{
+    "name": "K10.Audio.Editor",
+    "references": [
+        "K10",
+        "K10.Audio",
+        "K10.Editor"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false
+}
