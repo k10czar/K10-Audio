@@ -14,4 +14,4 @@ Used on [**Star Vikings**](https://www.starvikings.com)
 
 #### The add the Audio Tools submodule
 
-``git submodule add https://github.com/k10czar/K10-Audio.git "Assets/Plugins/K10Audio"``
+``git submodule add https://github.com/k10czar/K10-Audio.git "Assets/Plugins/K10/Audio"``
