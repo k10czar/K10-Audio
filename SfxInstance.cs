@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+using System.Runtime.CompilerServices;
 
 [CreateAssetMenu(fileName="SFX",menuName="SFX",order=55)]
 public class SfxInstance : ScriptableObject
