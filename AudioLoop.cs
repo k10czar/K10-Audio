@@ -42,6 +42,6 @@ public class AudioLoop
 
 	public override string ToString()
 	{
-		return string.Format( "[AudioLoop: Clip={0}, Configuration={1}]", ( _loop != null ) ? _loop.name : "Null", _config );
+		return string.Format( "[AudioLoop: Clip={0}, Configuration={1}]", ( _loop != null ) ? _loop.name : ConstsK10.NULL_STRING, _config );
 	}
 }

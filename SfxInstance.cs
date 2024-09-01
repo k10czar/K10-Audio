@@ -3,6 +3,23 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
 
+public static class SfxInstanceExtensions
+{
+	public static bool TryPlaySound( this SfxInstance instance, Transform transform, UnityEngine.Audio.AudioMixerGroup defaultGroup = null, float addedDelay = 0 ) 
+	{ 
+		if( instance == null ) return false;
+		var source = instance.PlaySomeClip( transform, defaultGroup, addedDelay );
+		return source != null;
+	}
+
+	public static bool TryPlaySound( this SfxInstance instance, Vector3 pos, UnityEngine.Audio.AudioMixerGroup defaultGroup = null, float addedDelay = 0 ) 
+	{ 
+		if( instance == null ) return false;
+		var source = instance.PlaySomeClip( pos, defaultGroup, addedDelay );
+		return source != null;
+	}
+}
+
 [CreateAssetMenu(fileName="SFX",menuName="SFX",order=55)]
 public class SfxInstance : ScriptableObject
 {
