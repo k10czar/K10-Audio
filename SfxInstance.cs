@@ -20,7 +20,7 @@ public static class SfxInstanceExtensions
 	}
 }
 
-[CreateAssetMenu(fileName="SFX",menuName="SFX",order=55)]
+[CreateAssetMenu(fileName="SFX",menuName="K10/Audio/SFX",order=55)]
 public class SfxInstance : ScriptableObject
 {
 	int _count = 0;
