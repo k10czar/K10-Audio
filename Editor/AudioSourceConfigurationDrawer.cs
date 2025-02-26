@@ -16,7 +16,7 @@ public class AudioSourceConfigurationDrawer : PropertyDrawer
 		if( Fold( property ).Get )
 			return lh;
 
-		var sh = SeparationLine.HEIGHT;
+		// var sh = SeparationLine.HEIGHT;
 		var props = 9;
 		//var seps = 2;
 		return props * lh + /*seps * sh +*/ ( props + 3 ) * SPACING;

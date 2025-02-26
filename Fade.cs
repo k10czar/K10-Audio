@@ -31,7 +31,7 @@ public class Fade : MonoBehaviour
 
     void Update()
     {
-        float time = 0;
+        // float time = 0;
         _accTime = Mathf.Clamp( _accTime + ( ( _active ) ? 1 : -1 ) * Time.deltaTime, 0, _duration );
 		_source.volume = ( _accTime / _duration ) * _endVolume;
     }
